@@ -1,0 +1,25 @@
+{
+  "slug": "surreal-studio",
+  "repo": "https://github.com/shisisishi/surreal-studio",
+  "demo": "https://shisisishi.github.io/surreal-studio/",
+  "safeToPublish": true,
+  "build": {
+    "success": true,
+    "notes": "已从本地 output 复制 4 支 mp4（均小于 95MB），生成根目录 index.html 与 README；已发布 commit b8835fa69b62719727f703b61ce58896f9f67aa5，GitHub Pages legacy 源为 main /。"
+  },
+  "includedFiles": [
+    "index.html",
+    "README.md",
+    "videos/surreal_h_15shots.mp4",
+    "videos/surreal_v_15shots.mp4",
+    "videos/science/EP01_h.mp4",
+    "videos/style/ST01_1080x1440.mp4"
+  ],
+  "skippedLargeFiles": [
+    {
+      "path": "火柴人/build/stickman_vs_ai_v2.mp4",
+      "sizeMB": 138.95,
+      "reason": "超过 95MB，且位于按要求排除的火柴人子目录"
+    }
+  ]
+}
