@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>超现实主义 · 动态成片</title>
+<style>
+body{margin:0;font-family:Georgia,"Songti SC",serif;background:#0f1115;color:#f2efe8}
+header,main{max-width:1080px;margin:0 auto;padding:28px 18px}
+h1{font-weight:500;margin:0 0 8px}
+p.lead{opacity:.85;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:24px}
+figure{margin:0;background:#1a1d24;border-radius:12px;overflow:hidden;border:1px solid #2a2f3a}
+video{width:100%;background:#000;display:block}
+.landscape video{aspect-ratio:16/9}
+.portrait video{aspect-ratio:9/16;max-height:70vh;object-fit:contain}
+figcaption{padding:12px 14px 16px;font-size:15px}
+.tag{display:inline-block;margin-top:6px;font-size:12px;opacity:.7}
+</style></head><body>
+<header><h1>超现实主义 · 动态成片</h1><p class="lead">横屏与竖屏 15 镜头合成，以及科学向 EP01、风格向 ST01 成片。页面使用相对路径直接播放 mp4，未包含 ref 参考片段与 build 中间文件。</p></header>
+<main><div class="grid">
+<figure class="landscape"><video controls preload="metadata" src="videos/surreal_h_15shots.mp4"></video><figcaption>15 镜头 · 横屏合成<span class="tag">surreal_h_15shots</span></figcaption></figure>
+<figure class="portrait"><video controls preload="metadata" src="videos/surreal_v_15shots.mp4"></video><figcaption>15 镜头 · 竖屏合成<span class="tag">surreal_v_15shots</span></figcaption></figure>
+<figure class="landscape"><video controls preload="metadata" src="videos/science/EP01_h.mp4"></video><figcaption>科学系列 EP01 · 横屏<span class="tag">EP01_h</span></figcaption></figure>
+<figure class="portrait"><video controls preload="metadata" src="videos/style/ST01_1080x1440.mp4"></video><figcaption>风格 ST01 · 1080×1440<span class="tag">ST01</span></figcaption></figure>
+</div></main></body></html>
